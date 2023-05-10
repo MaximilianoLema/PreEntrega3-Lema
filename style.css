@@ -1,3 +1,9 @@
+/* html{
+    font-family: 'Nunito', sans-serif;
+
+} */
+
+
 /* LOGO */
 .header-sobrenosotros{
     display: flex;
@@ -12,13 +18,22 @@
 
 .precio{
     font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+
 }
 
 .card-title {
     
     line-height: 1.2; /* Altura de línea */
     height: 5rem; /* Altura máxima del título */
-  }
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    }
+
+.card-img-top{
+    height: 286px;
+    width: 286px;
+}
 
 /* NAVBAR */
 
@@ -26,6 +41,7 @@
     padding-inline-start: 190px;
     padding-inline-end: 190px;
     margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
 }
 .bg-custom{
     background-color: hsl(221, 72%, 58%);
