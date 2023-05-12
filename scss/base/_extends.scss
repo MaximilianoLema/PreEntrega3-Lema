@@ -1,0 +1,14 @@
+%footer-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+%animacion-hover{
+    transform: scale(1.1);
+}
+
+%animacion-active{
+    transform: scale(1);
+}

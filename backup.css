@@ -1,0 +1,148 @@
+/* html{
+    font-family: 'Nunito', sans-serif;
+
+} */
+
+
+/* LOGO */
+.header-sobrenosotros{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 25em;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding-inline-start: 190px;
+    padding-inline-end: 190px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-item{
+    flex: 1;
+}
+.bg-custom{
+    background-color: hsl(221, 72%, 58%);
+}
+
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+/* PRODUCTOS */
+
+.precio{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.card-title {
+    
+    line-height: 1.2; /* Altura de línea */
+    height: 5rem; /* Altura máxima del título */
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    }
+
+.card-img-top{
+    height: 286px;
+    width: 286px;
+}
+
+.btn{
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.btn:active{
+    transform: scale(1);
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    margin: 0px;
+    border: 3px solid black;
+    margin-top: 100px;
+    font-family: 'Nunito', sans-serif;
+    }
+
+.div-footer-izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.div-footer-centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.iconos-redessociales{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos-redessociales{
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+}
+
+.logos-redessociales:hover{
+    transform: scale(1.2);
+}
+
+.logos-redessociales:active{
+    transform: scale(1);
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1600px ) {
+
+.navbar{
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .div-footer-izquierda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+
+    .texto-footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        
+        height: 400px;
+    }
+}

@@ -1,0 +1,44 @@
+
+.navbar{
+    padding-inline-start: 190px;
+    padding-inline-end: 190px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: hsl(221, 72%, 58%);
+
+    .container-fluid{
+
+
+        a{
+
+            button{
+                                
+            }
+        }
+    }
+}
+
+
+.barra-links{
+
+
+    ul{
+
+
+        li{
+            margin-left: 5px;
+            margin-right: 5px;
+            transition: transform 0.3s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+                z-index: 1;
+            }
+
+                a{
+
+                
+
+            }
+        }
+    }
+}
