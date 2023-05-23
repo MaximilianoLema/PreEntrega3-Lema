@@ -1,14 +1,24 @@
-%footer-columns {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
 }
 
-%animacion-hover{
-    transform: scale(1.1);
-}
-
-%animacion-active{
-    transform: scale(1);
+.logos-redessociales {
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+  
+    &:hover {
+        transform: scale(1.2);
+    }
+  
+    &:active {
+        transform: scale(1);
+    }
 }

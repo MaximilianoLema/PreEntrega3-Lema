@@ -1,54 +1,33 @@
-@import '../base/extends';
+@import 'variables';
 
-.footer{
+.footer {
     width: 100%;
     margin: 0px;
     border: 3px solid black;
     margin-top: 100px;
-    font-family: 'Nunito', sans-serif;
-    .container-fluid{
-        .row{
+    font-family: $font-family;
 
-            .div-footer-izquierda{
-                @extend %footer-columns;
-                .texto-footer{
+    .div-footer-izquierda {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-                }
-            }
+    .div-footer-centro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-            .div-footer-centro{
-                @extend %footer-columns;
-                .iconos-redessociales{
-                    width: 300px;
-                    display: flex;
-                    justify-content: space-around;
+    .iconos-redessociales {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
 
-                    a{
-                        .logos-redessociales{
-                            width: 50px;
-                            height: 50px;
-                            transition: all 0.3s;
-                            &:hover {
-                                @extend %animacion-hover;
-                            }
-                            &:active{
-                                @extend %animacion-active;
-                            }
-                        }
-                    }
-                }
-            }
-
-            .div-footer-derecha{
-                .texto-footer{
-
-                }
-            }
-
-
-
-
-
-        }
+    .logos-redessociales {
+        @extend .logos-redessociales;
     }
 }
